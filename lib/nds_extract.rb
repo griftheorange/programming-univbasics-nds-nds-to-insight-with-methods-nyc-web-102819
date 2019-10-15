@@ -17,4 +17,5 @@ def gross_for_director(director_data)
   director_data[:movies].length.times { |i|
     total_gross += director_data[:movies][i][:worldwide_gross]
   }
+  total_gross
 end
