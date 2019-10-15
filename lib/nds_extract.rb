@@ -10,6 +10,7 @@ def directors_totals(nds)
   nds.length.times { |i|
     result[nds[i][:name]] = gross_for_director(nds[i])
   }
+  result
   
 end
 
