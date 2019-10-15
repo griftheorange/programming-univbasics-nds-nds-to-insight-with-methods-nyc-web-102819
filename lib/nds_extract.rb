@@ -8,7 +8,7 @@ require 'directors_database'
 def directors_totals(nds)
   result = {}
   nds.length.times { |i|
-    
+    result[nds[i][:name]] = gross_for_director(nds[i])
   }
   
 end
